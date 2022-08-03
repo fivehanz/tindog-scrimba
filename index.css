@@ -4,7 +4,7 @@
 }
 
 #app {
-  max-width: 34rem;
+  max-width: 24rem;
   margin: 0 auto;
 }
 
@@ -39,13 +39,13 @@ img {
 
 .header-icon {
   margin: 0 1rem;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .header-icon.active {
-  width: 5.5rem;
-  height: 2.5rem;
+  width: 4.5rem;
+  height: 2rem;
 }
 
 .main-body {
@@ -74,6 +74,23 @@ img {
   font-weight: 500;
   bottom: 1rem;
   color: var(--text-color-secondary);
+}
+
+.like-badge,
+.nope-badge {
+  /* display: none; */
+  position: absolute;
+  z-index: 1;
+  top: 4rem;
+  left: 1rem;
+  width: 12rem;
+  transform: rotate(-0.125turn);
+}
+
+.like-badge {
+}
+
+.nope-badge {
 }
 
 .main-buttons {
