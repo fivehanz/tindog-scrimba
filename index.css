@@ -78,19 +78,13 @@ img {
 
 .like-badge,
 .nope-badge {
-  /* display: none; */
+  display: none;
   position: absolute;
   z-index: 1;
   top: 4rem;
   left: 1rem;
   width: 12rem;
   transform: rotate(-0.125turn);
-}
-
-.like-badge {
-}
-
-.nope-badge {
 }
 
 .main-buttons {
