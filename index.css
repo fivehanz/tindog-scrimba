@@ -49,17 +49,37 @@ img {
 }
 
 .main-body {
-  margin: 0 4px;
+  margin: 0 0.25rem;
+  position: relative;
 }
 
-.main-body img {
-  border-radius: 10px;
+.main-body .main-image {
+  border-radius: 0.5rem;
+}
+
+.text-primary,
+.text-secondary {
+  margin: 0 1rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.main-body .text-primary {
+  font-weight: 700;
+  bottom: 2.5rem;
+  color: var(--text-color-primary);
+}
+
+.main-body .text-secondary {
+  font-weight: 500;
+  bottom: 1rem;
+  color: var(--text-color-secondary);
 }
 
 .main-buttons {
   display: flex;
   justify-content: center;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .main-buttons-item {
