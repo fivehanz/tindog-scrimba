@@ -4,6 +4,14 @@ class Dog {
   constructor(data) {
     Object.assign(this, data);
   }
+
+  processLike = () => {
+    this.hasBeenLiked = true;
+  };
+
+  processNope = () => {
+    this.hasBeenSwiped = true;
+  };
 }
 
 export default Dog;
